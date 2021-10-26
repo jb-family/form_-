@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form_label</title>
+  </head>
+  <body>
+    <form action="http//localhost/label.php">
+      <p>
+        <label for="id_txt">text :</label>
+        <input id="id_txt" type="text" name="id" value="defalut value">
+      </p>
+      <p>
+        <label for="password">password :</label>
+        <input id="password" type="password" name="id" value="defalut value">
+      </p>
+      <p><label for="textarea">textarea :</label>
+        <textarea id="textarea" cols="50" lows="2">defalut value</textarea>
+      </p>
+
+      <p><label>textarea :
+        <textarea cols="50" lows="2">defalut value</textarea>
+      </label></p>
+
+      <p>
+        <label>붉은색 <input type="checkbox" name="color" value="red">
+        </label>
+        <label for="color_blue">
+          파란색 <input id="color_blue" type="checkbox" name="color" value="blue">
+        </label>
+      </p>
+
+      <label> id : <input type="text" name="id" value="oo"> </label>
+      <label for="id">id : </label> <input id="id" type="text" name="id" value="id">
+
+    </form>
+  </body>
+</html>
